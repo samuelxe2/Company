@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de Préstamos - Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulador de Préstamos - Cliente</h1>
+    
+    <!-- Botón para abrir el formulario de simulación -->
+    <button id="abrir-formulario">Simular Información</button>
+
+    <!-- Contenedor para mostrar el formulario (inicialmente oculto) -->
+    <div id="formulario-container" style="display: none;">
+        <h2>Simulación de Información</h2>
+        <form id="simulacion-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <!-- Agrega aquí otros campos del formulario -->
+            <button type="submit">Simular</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
